@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Alwin's Portfolio Website
 
-## Getting Started
+This repository houses the source code of my personal portfolio website, developed with Next.js. The site presents a curated collection of my projects, competencies, and milestones throughout my software engineering journey.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Responsive Design**: Crafted with TailwindCSS, the portfolio is designed to adapt seamlessly across desktop and mobile devices.
+- **Dynamic Project Showcase**: Projects are fetched dynamically, allowing for straightforward updates and additions.
+- **SEO Optimised**: Leveraging Next.js's server-side rendering, the site is optimised for search engines.
+- **Smooth Animations**: Utilising Framer Motion, the website offers fluid and engaging animations.
+- **Dark Mode**: A toggleable dark mode provides a comfortable viewing experience during night hours.
+- **Contact Form**: An integrated contact form for those wishing to get in touch.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Development
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The site is built using [Next.js](https://nextjs.org/), a React framework known for features such as server-side rendering and static site generation. It's styled with [TailwindCSS](https://tailwindcss.com/) for utility-first design, and animations are powered by [Framer Motion](https://www.framer.com/motion/).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Run this on your machine
 
-## Learn More
+To run the project locally:
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository.
+2. Run the development server using one of the following commands:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
