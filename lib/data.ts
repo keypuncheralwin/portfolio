@@ -1,3 +1,5 @@
+import lavaRising from "@/public/lavaRising.png";
+
 export const links = [
   {
     name: "Home",
@@ -23,6 +25,23 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
+] as const;
+
+export const projectsData = [
+  {
+    title: "Lava Rising",
+    description:
+      "I worked on a 2d platformer game in my spare time. Made with the unity game engine, it can be played on the browser or on mobile by downloading from the appstore",
+    tags: ["Unity", "C#"],
+    imageUrl: lavaRising,
+  },
+  {
+    title: "Lava Rising",
+    description:
+      "I worked on a 2d platformer game in my spare time. Made with the unity game engine, it can be played on the browser or on mobile by downloading from the appstore",
+    tags: ["Unity", "C#"],
+    imageUrl: lavaRising,
+  }
 ] as const;
 
 export const skillsData = [

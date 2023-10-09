@@ -1,7 +1,8 @@
-'use client'
+"use client"
 
-import { motion } from 'framer-motion'
-import React from 'react'
+import { motion } from "framer-motion"
+import React from "react"
+import SectionHeading from "./sectionHeading"
 
 export default function About() {
   return (
@@ -12,7 +13,7 @@ export default function About() {
     transition={{ delay: 0.175 }}
     id="about"
     >
-    <h2 className="text-3xl font-medium capitalize mb-8 text-center">About me</h2>
+    <SectionHeading>About me</SectionHeading>
     <p className="mb-3">
         My educational journey began at James Cook University, where I earned my <span className="font-bold">degree in Information Technology</span>. Eager to delve deeper into the world of software development, I pursued further studies with <span className="font-bold">General Assembly's Software Engineering Immersive program</span>. With a strong foundation in <span className="font-bold">React, Node.js, and TypeScript</span>, I've been instrumental in crafting scalable and efficient solutions in various roles.
     </p>
