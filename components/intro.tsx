@@ -49,7 +49,11 @@ export default function Intro() {
         <span className="font-bold">Hey there, I'm Alwin. </span> 
         <span>A</span>
         <span className="font-bold"> passionate Software Engineer. </span>
-        Driven by a love for problem-solving and a thirst for learning, I embrace new tech stacks to address intricate challenges and bring innovative projects to life. Whether steering solo ventures or thriving in team collaborations, my dedication to software excellence remains unwavering.
+        Driven by a love for
+        <span className="font-bold"> problem-solving </span>
+        and a thirst for 
+        <span className="font-bold"> learning </span>
+        I embrace new tech stacks to address intricate challenges and bring innovative projects to life.
         </motion.h1>
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
         initial={{ opacity: 0, y: 100 }}
