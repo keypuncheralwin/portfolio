@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react'
+import React, { useEffect } from 'react'
 import Image from 'next/image'
 import programmer from '../public/programmer.png'
 import { motion } from 'framer-motion'
@@ -8,10 +8,21 @@ import Link from 'next/link'
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs'
 import { HiDownload } from 'react-icons/hi'
 import { FaGithubSquare } from 'react-icons/fa'
+import { useInView } from 'react-intersection-observer'
+import { useActiveSectionContext } from '@/context/activeSectionContext'
 
 export default function Intro() {
+  const {ref, inView} = useInView({
+    threshold: 0.5
+  });
+  const { setActiveSection } = useActiveSectionContext()
+  useEffect(() => {
+    if(inView){
+      setActiveSection('Home');
+    }
+  },[inView,setActiveSection])
   return (
-    <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
+    <section ref={ref} id='home' className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'>
         <div className='flex items-center justify-center'>
             <div className='relative'>
                 <motion.div
@@ -42,7 +53,7 @@ export default function Intro() {
             </div>
         </div>
         <motion.h1
-        className="mb-10 mt-4 px-4 text-l font-medium !leading-[1.5] sm:text-l"
+        className="mb-10 mt-4 px-4 text-l font-medium !leading-[1.5] sm:text-2xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         >
