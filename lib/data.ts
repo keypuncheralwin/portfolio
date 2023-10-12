@@ -1,8 +1,6 @@
 import lavaRising from '@/public/lavaRising.png';
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
-import { FaReact } from 'react-icons/fa';
-import { LuGraduationCap } from 'react-icons/lu';
 
 export const links = [
   {
@@ -78,27 +76,27 @@ export const skillsData = [
 
 export const experiencesData = [
   {
-    title: 'Lorem Ipsum',
-    location: 'Dolor Sit, AM',
+    title: 'Software Engineer',
+    location: 'Liftango',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.',
-    icon: React.createElement(LuGraduationCap),
-    date: 'Lorem Date',
-  },
-  {
-    title: 'Consectetur Adipiscing',
-    location: 'Elit, LM',
-    description:
-      'Donec ac odio tempor orci dapibus ultrices in iaculis nunc sed augue lacus. Nisl nisi scelerisque eu ultrices vitae auctor eu augue ut.',
+      "deeply explored various aspects of the company's primary ride-sharing app. Using React Native, I refined the front-end, meeting evolving requirements and enhancing user experience. On the backend, my contributions with Express JS were central to updating API endpoints, catering to new features and user preferences. This role significantly expanded my knowledge and skillset in app development.",
     icon: React.createElement(CgWorkAlt),
-    date: 'Ipsum - Dolor',
+    date: 'Sep 2022 - Present',
   },
   {
-    title: 'Sed Do Eiusmod',
-    location: 'Tempor, TX',
+    title: 'Software Engineer',
+    location: 'brightSpark Labs',
     description:
-      'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.',
-    icon: React.createElement(FaReact),
-    date: 'Lorem - Ipsum',
+      'I secured an NV1 clearance, enabling me to participate in high-security projects. I worked on a variety of projects, leveraging languages/stacks such as Java/SpringBoot, TypeScript/React, Python, Docker, bash/linux ,postgres/GraphQL and more. Collaborated with colleagues to design and implement a feature to an existing in-house program to improve usability.',
+    icon: React.createElement(CgWorkAlt),
+    date: 'Jan 2022 - Sep 2022',
+  },
+  {
+    title: 'I.T Client Relations Consultant',
+    location: 'Ipau',
+    description:
+      'Managed multiple primary schools, providing level 1, 2, and 3 support. Duties included writing scripts to manage servers, managing school websites, onsite support and any support regard the IT infrastructure. Managed Group Policy, Active Directory, DNS, and DHCP. Used Veeam for backups and SCCM for software deployment.',
+    icon: React.createElement(CgWorkAlt),
+    date: 'Jan 2021 - Jan 2022',
   },
 ] as const;
