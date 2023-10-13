@@ -79,7 +79,7 @@ export const experiencesData = [
     title: 'Software Engineer',
     location: 'Liftango',
     description:
-      "deeply explored various aspects of the company's primary ride-sharing app. Using React Native, I refined the front-end, meeting evolving requirements and enhancing user experience. On the backend, my contributions with Express JS were central to updating API endpoints, catering to new features and user preferences. This role significantly expanded my knowledge and skillset in app development.",
+      "Worked on various aspects of the company's primary ride-sharing app. Using React Native, I refined the front-end, meeting evolving requirements and enhancing user experience. On the backend, my contributions with Express JS were central to updating API endpoints, catering to new features and user preferences. This role significantly expanded my knowledge and skillset in app development.",
     icon: React.createElement(CgWorkAlt),
     date: 'Sep 2022 - Present',
   },
