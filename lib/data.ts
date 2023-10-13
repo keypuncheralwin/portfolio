@@ -38,9 +38,8 @@ export const projectsData = [
     imageUrl: lavaRising,
   },
   {
-    title: 'Lava Rising',
-    description:
-      'I worked on a 2d platformer game in my spare time. Made with the unity game engine, it can be played on the browser or on mobile by downloading from the appstore',
+    title: 'More Projecsts to be added',
+    description: 'More Projecsts to be added',
     tags: ['Unity', 'C#'],
     imageUrl: lavaRising,
   },
