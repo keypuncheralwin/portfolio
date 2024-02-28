@@ -1,6 +1,8 @@
 # Alwin's Portfolio Website
 
-This repository houses the source code of my personal portfolio website, developed with Next.js. The site presents a curated collection of my projects, competencies, and milestones throughout my software engineering journey.
+[Visit the site](https://alwingeorge.dev)
+
+My personal portfolio website, developed with Next.js. The site presents a curated collection of my projects, competencies, and expereinces throughout my software engineering journey.
 
 ## Features
 

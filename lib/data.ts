@@ -3,7 +3,6 @@ import netflicks from '@/public/netflicks.png';
 import chat from '@/public/chat.png';
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
-import { StaticImageData } from 'next/image';
 import { ProjectData } from './types';
 
 export const links = [
@@ -38,7 +37,7 @@ export const projectsData: ProjectData[] = [
     title: 'NetFlicks',
     description:
       'NetFlicks is a dynamic platform for exploring, tracking, and organising your favorite movies and TV shows. Built with Next.js 14, with options to log in via email or Google.',
-    tags: ['next js', 'typescript', 'next-auth'],
+    tags: ['next js', 'typescript', 'next-auth', 'prisma', 'supabase'],
     imageUrl: netflicks,
     linkedinUrl: 'https://github.com/keypuncheralwin/net-flicks',
     websiteUrl: 'https://netflicks.alwingeorge.dev',
@@ -57,7 +56,7 @@ export const projectsData: ProjectData[] = [
     title: 'Chat Application',
     description:
       'An simple online chat application, allowing instant messaging leveraging websockets. It is mobile compatible. Was made to understand the basics of springboot, a java backend platform',
-    tags: ['java', 'springboot', 'javascript'],
+    tags: ['java', 'springboot', 'javascript', 'html', 'css', 'mongodb'],
     imageUrl: chat,
     linkedinUrl: 'https://github.com/keypuncheralwin/chat',
     websiteUrl: 'http://chat.alwingeorge.dev/',
