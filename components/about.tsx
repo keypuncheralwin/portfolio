@@ -18,33 +18,27 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        My educational journey began at James Cook University, where I earned my{' '}
-        <span className="font-bold">degree in Information Technology</span>.
-        Eager to delve deeper into the world of software development, I pursued
-        further studies with{' '}
+      <p className="mb-3 md:text-xl">
+        I began my education at James Cook University, earning a{' '}
+        <span className="font-bold">degree in Information Technology</span>, and
+        further honed my skills through{' '}
         <span className="font-bold">
           General Assembly's Software Engineering Immersive program
         </span>
-        . With a strong foundation in{' '}
+        . Specializing in{' '}
         <span className="font-bold">React, Node.js, and TypeScript</span>, I've
-        been instrumental in crafting scalable and efficient solutions in
-        various roles.
+        contributed to developing scalable solutions across various roles.
       </p>
 
-      <p>
-        Beyond the world of code, I am a creative at heart. My{' '}
-        <span className="underline">love</span> for cinema doesn't just end at
-        watching movies; I delve into the world of{' '}
-        <span className="underline">photography and videography</span>,
-        capturing moments and weaving stories. When I'm not coding or behind a
-        camera, you might find me exploring the nuances of cinema, appreciating
-        the art of storytelling on screen. With a blend of technical acumen and
-        a penchant for <span className="font-bold">creativity</span>, I strive
-        to bring a unique perspective to every project I undertake.
-        Collaborative, passionate, and{' '}
-        <span className="font-bold">ever-curious</span>, I am driven to combine
-        my skills and interests to create lasting impacts in the tech landscape.
+      <p className="mb-3 md:text-xl">
+        Aside from coding, my passion extends to cinema,{' '}
+        <span className="underline">photography and videography</span> where I
+        enjoy capturing and creating stories. My interest in the art of
+        storytelling through film complements my technical skills, allowing me
+        to offer a <span className="font-bold">distinctive approach</span> to
+        each project. As a collaborative and passionate professional with a mix
+        of technical and creative skills, I aim to make a meaningful impact in
+        the tech world.
       </p>
     </motion.section>
   );
