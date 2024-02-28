@@ -45,7 +45,7 @@ export const projectsData: ProjectData[] = [
   {
     title: 'Lava Rising',
     description:
-      'Made a 2d platformer game with the unity with the unity game engine, it can be played on the browser or on mobile by downloading from the appstore.',
+      'A 2d platformer game with the unity game engine. Try and survive by avoiding the falling debris but be careful not to fall into the rising lava. Play it on the browser or on mobile (playstore).',
     tags: ['Unity', 'C#'],
     imageUrl: lavaRising,
     linkedinUrl:
@@ -55,7 +55,7 @@ export const projectsData: ProjectData[] = [
   {
     title: 'Chat Application',
     description:
-      'An simple online chat application, allowing instant messaging leveraging websockets. It is mobile compatible. Was made to understand the basics of springboot, a java backend platform',
+      'A simple online chat application, allowing instant messaging leveraging websockets. Allows for private one to one messaging with presistent chat history.',
     tags: ['java', 'springboot', 'javascript', 'html', 'css', 'mongodb'],
     imageUrl: chat,
     linkedinUrl: 'https://github.com/keypuncheralwin/chat',
