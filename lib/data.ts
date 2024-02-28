@@ -45,7 +45,7 @@ export const projectsData: ProjectData[] = [
   {
     title: 'Lava Rising',
     description:
-      'A 2d platformer game with the unity game engine. Try and survive by avoiding the falling debris but be careful not to fall into the rising lava. Play it on the browser or on mobile (playstore).',
+      'A 2d platformer game made with the unity game engine. Try and survive by avoiding the falling debris but be careful not to fall into the rising lava. Play it on the browser or on mobile (playstore).',
     tags: ['Unity', 'C#'],
     imageUrl: lavaRising,
     linkedinUrl:
