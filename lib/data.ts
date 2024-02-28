@@ -37,7 +37,7 @@ export const projectsData: ProjectData[] = [
     title: 'NetFlicks',
     description:
       'NetFlicks is a dynamic platform for exploring, tracking, and organising your favorite movies and TV shows. Built with Next.js 14, with options to log in via email or Google.',
-    tags: ['next js', 'typescript', 'next-auth', 'prisma', 'supabase'],
+    tags: ['next js', 'typescript', 'next-auth', 'tailwind', 'prisma', 'supabase'],
     imageUrl: netflicks,
     linkedinUrl: 'https://github.com/keypuncheralwin/net-flicks',
     websiteUrl: 'https://netflicks.alwingeorge.dev',
