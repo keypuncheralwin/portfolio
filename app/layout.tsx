@@ -8,6 +8,7 @@ import { Toaster } from 'react-hot-toast';
 import ThemeSwitch from '@/components/themeSwitch';
 import ThemeContextProvider from '@/context/themeContext';
 import Head from 'next/head';
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -25,7 +26,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <Head>
-        <script defer src="https://app.tinyanalytics.io/pixel/k2O3K88Z2KKL6MVp"></script>
+        <Script
+          src="https://app.tinyanalytics.io/pixel/k2O3K88Z2KKL6MVp"
+        ></Script>
       </Head>
       <body
         className={`${inter.className} bg-gray-300 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}

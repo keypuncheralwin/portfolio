@@ -37,7 +37,14 @@ export const projectsData: ProjectData[] = [
     title: 'NetFlicks',
     description:
       'NetFlicks is a dynamic platform for exploring, tracking, and organising your favorite movies and TV shows. Built with Next.js 14, with options to log in via email or Google.',
-    tags: ['next js', 'typescript', 'next-auth', 'tailwind', 'prisma', 'supabase'],
+    tags: [
+      'next js',
+      'typescript',
+      'next-auth',
+      'tailwind',
+      'prisma',
+      'supabase',
+    ],
     imageUrl: netflicks,
     linkedinUrl: 'https://github.com/keypuncheralwin/net-flicks',
     websiteUrl: 'https://netflicks.alwingeorge.dev',
@@ -98,7 +105,7 @@ export const experiencesData = [
     title: 'Software Engineer',
     location: 'Liftango',
     description:
-      "Worked on various aspects of the company's primary ride-sharing app. Using React Native, I refined the front-end, meeting evolving requirements and enhancing user experience. On the backend, my contributions with Express JS were central to updating API endpoints, catering to new features and user preferences. This role significantly expanded my knowledge and skillset in app development.",
+      "Working on various aspects of the company's primary ride-sharing app, I managed to significantly reduce monthly Twilio costs by analysing SMS triggers, prioritising push notifications over SMS, and ensuring SMS were sent only if push notifications failed. Additionally, savings were further enhanced by refactoring the SMS message content to reduce its character size. In terms of development, I contributed to refining the application's front-end using React Native, adapting to evolving feature demands and enhancing the user experience. My involvement extended to the back-end, where I utilised Express JS to update and overhaul API endpoints to accommodate new functionalities and user needs. This comprehensive engagement across different facets of the app substantially broadened my technical knowledge and skills, fostering my continuous professional development in the app development sector.",
     icon: React.createElement(CgWorkAlt),
     date: 'Sep 2022 - Present',
   },
@@ -106,7 +113,7 @@ export const experiencesData = [
     title: 'Software Engineer',
     location: 'brightSpark Labs',
     description:
-      'I secured an NV1 clearance, enabling me to participate in high-security projects. I worked on a variety of projects, leveraging languages/stacks such as Java/SpringBoot, TypeScript/React, Python, Docker, bash/linux ,postgres/GraphQL and more. Collaborated with colleagues to design and implement a feature to an existing in-house program to improve performance.',
+      'Obtained an NV1 clearance, enabling involvement in high-security projects. Contributed to enhancing an existing node graph visualiser by implementing React Fiber, overcoming limitations of the react-force-graph library for superior 3D graph control. My work extended to refining our in-house codebase, focusing on the Angular frontend and Java-based Dropwizard backend, building on top of existing features to extend their functionality. To streamline software setup, crafted linux bash scripts that automated configurations, enhancing efficiency and fostering a collaborative environment. Updated and modernised outdated documentation, facilitating the onboarding of new team members and enhancing project accessibility.',
     icon: React.createElement(CgWorkAlt),
     date: 'Jan 2022 - Sep 2022',
   },
@@ -114,7 +121,7 @@ export const experiencesData = [
     title: 'I.T Client Relations Consultant',
     location: 'Ipau',
     description:
-      'Managed multiple primary schools, providing level 1, 2, and 3 support. Duties included writing scripts to manage servers, managing school websites, onsite support and any support regarding the IT infrastructure. Managed Group Policy, Active Directory, DNS, and DHCP. Used Veeam for backups and SCCM for software deployment.',
+      'Managed IT operations across several primary schools, providing extensive support and system administration for servers, networks, and IT infrastructure. Enhanced workflows through scripting, maintained school websites to guarantee their ongoing functionality and accessibility, and offered both onsite and remote technical support to resolve IT issues. Oversaw the management of Windows Servers, PCs, and mobile devices to ensure their efficient operation.',
     icon: React.createElement(CgWorkAlt),
     date: 'Jan 2021 - Jan 2022',
   },
