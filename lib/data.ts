@@ -102,12 +102,20 @@ export const skillsData = [
 
 export const experiencesData = [
   {
+    title: 'Mobile Software Engineer',
+    location: 'Flight Centre Travel Group',
+    description:
+    "In my role at Flight Centre, I optimised the Trips screen in the React Native app by implementing local data persistence, which significantly improved load speed and reduced API calls. I collaborated with my development team to implement the new app homescreen, following designs provided by the UX team to enhance user navigation and engagement. Additionally, I built a personalised holiday deals component for the new homescreen based on user search history, increasing customer retention and app personalisation. I also conducted code reviews, debugging, and implemented mobile development best practices to improve app performance, reliability, and alignment with business goals.",
+    icon: React.createElement(CgWorkAlt),
+    date: 'Apr 2024 - Present',
+  },
+  {
     title: 'Software Engineer',
     location: 'Liftango',
     description:
-      "Working on various aspects of the company's primary ride-sharing app, I managed to significantly reduce monthly Twilio costs by analysing SMS triggers, prioritising push notifications over SMS, and ensuring SMS were sent only if push notifications failed. Additionally, savings were further enhanced by refactoring the SMS message content to reduce its character size. In terms of development, I contributed to refining the application's front-end using React Native, adapting to evolving feature demands and enhancing the user experience. My involvement extended to the back-end, where I utilised Express JS to update and overhaul API endpoints to accommodate new functionalities and user needs. This comprehensive engagement across different facets of the app substantially broadened my technical knowledge and skills, fostering my continuous professional development in the app development sector.",
+    "I contributed to refining the front end in React Native to meet evolving feature demands and enhance user experience. On the back end, I worked with Express JS to update and overhaul API endpoints to support new functionalities and user needs. I reduced monthly Twilio costs by analysing SMS triggers, prioritising push notifications over SMS, and ensuring SMS were sent only if push notifications failed. Additionally, I refactored SMS message content to reduce character size, further lowering expenses.",
     icon: React.createElement(CgWorkAlt),
-    date: 'Sep 2022 - Present',
+    date: 'Sep 2022 - Mar 2024',
   },
   {
     title: 'Software Engineer',
