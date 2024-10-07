@@ -1,5 +1,5 @@
 import lavaRising from '@/public/lavaRising.png';
-import clarify from '@/public/Clarify.png';
+import clarify from '@/public/clarify.png';
 import chat from '@/public/chat.png';
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
