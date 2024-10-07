@@ -1,5 +1,5 @@
 import lavaRising from '@/public/lavaRising.png';
-import netflicks from '@/public/netflicks.png';
+import clarify from '@/public/Clarify.png';
 import chat from '@/public/chat.png';
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
@@ -34,20 +34,17 @@ export const links = [
 
 export const projectsData: ProjectData[] = [
   {
-    title: 'NetFlicks',
+    title: 'Clarify',
     description:
-      'NetFlicks is a dynamic platform for exploring, tracking, and organising your favorite movies and TV shows. Built with Next.js 14, with options to log in via email or Google.',
+      'Clarify is an app that helps users analyze articles and YouTube videos to quickly determine if the content matches its title, providing clarity and key insights, featuring a custom share functionality, allowing users to share links directly from other apps.',
     tags: [
-      'next js',
-      'typescript',
-      'next-auth',
-      'tailwind',
-      'prisma',
-      'supabase',
+      'flutter',
+      'firebase',
+      'node',
     ],
-    imageUrl: netflicks,
-    linkedinUrl: 'https://github.com/keypuncheralwin/net-flicks',
-    websiteUrl: 'https://netflicks.alwingeorge.dev',
+    imageUrl: clarify,
+    linkedinUrl: 'https://github.com/keypuncheralwin/clarify',
+    websiteUrl: 'https://clarifyapp.io',
   },
   {
     title: 'Lava Rising',
